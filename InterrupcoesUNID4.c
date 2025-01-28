@@ -101,7 +101,7 @@ int main() {
     add_repeating_timer_ms(-100, alternar_led_callback, NULL, &timer);
 
     while (true) {
-        exibir_numero(numero_atual, pio, sm, 0.01, 0.01, 0.01);
+        exibir_numero(numero_atual, pio, sm, 0.1, 0.1, 0.1); // cor branca a 10%
         sleep_ms(100);
     }
 
